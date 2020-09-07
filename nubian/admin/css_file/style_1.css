@@ -1,0 +1,83 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+body{
+    padding: 0;
+}
+#main{
+    float: none;
+    margin: 0 auto;
+    font-family:raleway;
+}
+h2{
+    background-color: #FEFFED;
+    text-align:center;
+    border-radius: 10px 10px 0 0;
+    margin: -10px -40px -20px !important;
+    padding: 15px;
+}
+hr{
+    border:0;
+    border-bottom:1px solid #ccc;
+    margin: 10px -40px;
+    margin-bottom: 30px;
+}
+#login{
+    width:50%;
+    min-width: 320px;
+    border-radius: 10px;
+    font-family:raleway;
+    border: 2px solid #ccc;
+    padding: 10px 40px 25px;
+    margin: 70px auto 0 auto;
+}
+input[type=text],input[type=email]{
+    width:100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    padding-left: 5px;
+    font-size: 16px;
+    font-family:raleway;
+    margin-bottom: 10px;
+}
+input[type=submit]{
+    width: 100%;
+    background-color:#FFBC00;
+    color: white;
+    border: 2px solid #FFCB00;
+    padding: 10px;
+    font-size:20px;
+    cursor:pointer;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+textarea{
+    width: 100%;
+    margin-top: 10px !important;
+    margin-bottom: 15px !important;
+}
+input[type="file"] {
+    float: left;
+    width: 90%;
+}
+a.remove_field img{
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-top: 6px;
+}
+.input_fields_wrap div input {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+a.add_field_button {
+    float: right;
+    margin-bottom: 15px;
+}
+h1 {
+    text-align: center;
+}
+@media only screen and (max-width:480px){
+    div#login{
+        width: 300px;
+    }
+}
